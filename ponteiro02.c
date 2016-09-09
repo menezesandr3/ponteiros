@@ -31,11 +31,11 @@ int main()
 		printf ("\nvariavel_1 = %i", *ponteiro_1);
 		printf ("\nvariavel_2 = %i", *ponteiro_2);
 		
-		
+		//passa o valor da variavel_1 para a variavel auxiliar
 		aux = *ponteiro_1;
-		
+		//o valor da variavel_1 passa a ser o valor da variavel_2
 		*ponteiro_1 = *ponteiro_2;
-		
+		//o valor da Variavel_2 passa a ser o valor da variavel auxiliar
 		*ponteiro_2 = aux;
 		
 		printf (" \n\nSwamp variavel_1: %d", *ponteiro_1);
